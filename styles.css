@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#maze {
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    position: relative;
+}
+
+#wrapper {
+    margin:20px auto
+ }
+
+.cell {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.wall {
+    background-color: black;
+}
+
+.start {
+    background-color: green;
+}
+
+.end {
+    background-color: red;
+}
+
+.player {
+    background-color: blue;
+}
+
+#info {
+    margin-top: 20px;
+}
+
+#info2 {
+    margin-top: 20px;
+}
+
